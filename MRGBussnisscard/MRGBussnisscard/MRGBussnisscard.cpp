@@ -8,7 +8,6 @@
 
 */ 
 
- {
 #include "pch.h"
 #include <iostream>
 #include <windows.h>
