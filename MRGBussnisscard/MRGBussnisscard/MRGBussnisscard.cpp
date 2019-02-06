@@ -1,6 +1,15 @@
+// Mathew Garcia
+// 2/5/2019
+// version 1.0
+// ITSE - 1307
+
+
 #include "pch.h"
 #include <iostream>
 #include <windows.h>
+
+//This program prints out a bussniss card information
+//output information
 
 using namespace std;
 int main()
