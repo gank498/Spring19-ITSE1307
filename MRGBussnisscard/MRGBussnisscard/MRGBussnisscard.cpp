@@ -10,7 +10,9 @@
 
 //This program prints out a bussniss card information
 //output information
-
+//in future would like to implament options that link other bussnisses and personal
+//would likee to add a input feature that allows card to be created in program
+//Program a input method that takes the input and makes it into a bussniss card
 using namespace std;
 int main()
 {
