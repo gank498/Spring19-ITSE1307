@@ -24,7 +24,9 @@ int main()
 		
 	dbleKM = (double)intmiles * (double)dblebase; //actual formula for conversion
 
-	cout << endl << dbleKM << " KM"; //output users answer in decimel
+	cout << endl << intmiles << "M is " << dbleKM << " in KM";
+
+	//cout << endl << dbleKM << " KM"; //output users answer in decimel
 
 	return 0;
 }
