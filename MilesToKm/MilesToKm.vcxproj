@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{26851E4F-C4F7-4885-88AF-1AEF8AF5602B}</ProjectGuid>
+    <ProjectGuid>{18861DFD-EB9E-4C25-9C9D-5E58A2C06970}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>MilesToKm</RootNamespace>
+    <RootNamespace>milestoKM</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -154,7 +154,7 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MilesToKm.cpp" />
+    <ClCompile Include="milestoKM.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
