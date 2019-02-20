@@ -1,0 +1,13 @@
+BEGIN:BCARD
+N:mathew;garcia;
+FN: Mathew Garcia
+ORG: Ganks's Computer Services
+Title: Technician
+Photo;MEDIATYPE=image/.jpg:https://i.ytimg.com/vi/uhlBqFj9kDw/maxresdefault.jpg
+TEL;TYPE=work,voice;VALUE=uri:tel:+1-210-555-5555
+TEL; TYPE=home, voice; VALUE = uri:tel:+1 - 210 - 555 - 5555
+ADR;TYPE=WORK;PREF=1;LABEL=555 Broadaway Ave, TX 78221
+Email: gank497@yahoo.com
+REV:20080424T195243Z
+x-qq:21588891
+END:BCARD
