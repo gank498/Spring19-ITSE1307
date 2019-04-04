@@ -34,7 +34,7 @@ void check(char word[], int index)
 
 int main()
 {
-	char chrword[15];//declares new variable  
+	char chrword[15];//new variable  
 
 	cout << "Enter a word to check if it is a palindrome" << endl; //output
 	cin >> chrword; //input
