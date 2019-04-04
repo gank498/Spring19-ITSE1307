@@ -23,7 +23,7 @@ int main()
 	cout << isVowel(chrletter) << endl; //output if letter is vowel or not
 }
 
-bool isVowel(char chrletter)
+bool isVowel(char chrletter) //fuction
 {
 	chrletter = tolower(chrletter);
 	if (chrletter == 'a' || chrletter == 'e' || chrletter == 'i' || chrletter == 'o' || chrletter == 'u') {
