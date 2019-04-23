@@ -2,7 +2,7 @@
 
 class romanType{
       char R[8];
-      int decimal; //stores the decimal number after converting
+      double decimal; //stores the decimal number after converting
 public:
       romanType(); //constructor
       void RomanTodecimal(); //declaration of a function to convert roman into decimal
