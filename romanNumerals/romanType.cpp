@@ -10,7 +10,7 @@ void romanType::RomanTodecimal()
 	char chra[1000];
 	cout << "Enter the number in roman format(M-D-C-L-X-V-I) :";//Output
 	cin >> chra;//Input
-	int dec = 0;//variuable for decimal
+	double dbldec = 0;//variuable for decimal
 	int	intlength = 0;//variuable for length
 	int intnumber = 0;//variuable for number
 	intlength = strlen(chra); //calucltes the length of char string
@@ -18,30 +18,30 @@ void romanType::RomanTodecimal()
 	{
 		chra[i] = toupper(chra[i]);
 		if (chra[i] == R[0])
-			dec = 1000;
+			dbldec = 1000;
 		else if (chra[i] == R[1])
-			dec = 500;
+			dbldec = 500;
 		else if (chra[i] == R[2])
-			dec = 100;
+			dbldec = 100;
 		else if (chra[i] == R[3])
-			dec = 50;
+			dbldec = 50;
 		else if (chra[i] == R[4])
-			dec = 10;
+			dbldec = 10;
 		else if (chra[i] == R[5])
-			dec = 5;
+			dbldec = 5;
 		else if (chra[i] == R[6])
-			dec = 1;
+			dbldec = 1;
 
 		else
 		{
 			decimal = -1;
 			break;
 		}
-		if (intnumber > dec)
-			decimal = (decimal - dec);
+		if (intnumber > dbldec)
+			decimal = (decimal - dbldec);
 		else
-			decimal = decimal + dec;
-		intnumber = dec;
+			decimal = decimal + dbldec;
+		intnumber = dbldec;
 	}
 }
 
