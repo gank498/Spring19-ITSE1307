@@ -1,10 +1,16 @@
-// crmPhoneBook.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
+/*
+	Mathew Garcia
+	ITSE-1307
+*/
 #include "pch.h"
 #include <iostream>
 #include "Contact.h"
 #include "PhoneBook.h"
+/*
+	this program creates a digital Phone book
+ 	it allows to add new contacts and edit contacts
+
+*/
 
 void printMenu() {
 	std::cout << "Welcome to Phone Book" << std::endl;
